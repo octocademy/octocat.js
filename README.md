@@ -63,7 +63,7 @@ Note: colors can be any valid [SVG or CSS2 Color](https://developer.mozilla.org/
 | `setTop(top)` | Changes the top. `top` is a string containing a top option. |
 | `setPuddleColor(puddleColor)` | Set the puddle color. `puddleColor` is a color value. |
 | `noPuddle()` | Do not draw the puddle. |
-| `setStroke(color, width, opacity)` | If set, the octocat will have an outline stroke with the color width and opacity specified. Note, `opacity` should be left at `1` (the default, can be omitted) in almost all cases. Setting the stroke requires drawing the octocst twice (once with stroke and once without) and is very computationally expensive. |
+| `setStroke(color, width, opacity)` | If set, the octocat will have an outline stroke with the color width and opacity specified. Note, `opacity` should be left at `1` (the default, can be omitted) in almost all cases. Setting the stroke requires drawing the octocat twice (once with stroke and once without) and is very computationally expensive. |
 | `noStroke()` | Turn off the stroke (if it had been turned on). By default there is no stroke. |
 | `setFill(color)` | Fill the octocat with a flat color. `color` is a color value. |
 | `noFill()` | Turn off the fill (if it had been turned on). By default there is no fill. |
