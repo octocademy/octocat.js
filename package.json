@@ -1,0 +1,27 @@
+{
+  "name": "octocat.js",
+  "version": "1.0.0",
+  "description": "Build your own octocat.",
+  "main": "dist/octocat.js",
+  "directories": {
+    "src": "src",
+    "dist": "dist"
+  },
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npx webpack"
+  },
+  "keywords": [],
+  "author": "Jeff Rafter",
+  "license": "MIT",
+  "devDependencies": {
+    "rimraf": "^2.6.2",
+    "webpack": "^3.0.0",
+    "webpack-cli": "^4.2.0",
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }
+}
