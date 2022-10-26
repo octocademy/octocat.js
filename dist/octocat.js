@@ -16,7 +16,7 @@ System.register([], function(_export, _context) {
                 reject(error)
                 return
               }
-
+ 
               if (info.done) {
                 resolve(value)
               } else {
