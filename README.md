@@ -14,7 +14,7 @@ To import:
 import Octocat from 'octocat.js'
 ```
 
-Or to import the available options:
+Or to import the available options: 
 
 ```js
 import {OctocatOptions} from 'octocat.js'
