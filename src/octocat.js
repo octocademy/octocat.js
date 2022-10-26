@@ -51,7 +51,7 @@ System.register([], function(_export, _context) {
       //   accessories: {},
       //   mouths: {},
       //   props: {},
-      //   tops: {}
+      //   tops: {} 
       // }
 
       const OctocatOptions = {
