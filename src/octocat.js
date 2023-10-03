@@ -35,7 +35,8 @@ System.register([], function(_export, _context) {
           })
         }
       }
-
+      
+      // This defines all of the customizable options for the Octocats
       // OctocatOptions = {
       //   bodyColors: {},
       //   bottoms: {},
